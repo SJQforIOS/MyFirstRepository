@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7358DD821EBC747C00855684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358DD811EBC747C00855684 /* main.m */; };
+		7358DD851EBC747C00855684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358DD841EBC747C00855684 /* AppDelegate.m */; };
+		7358DD881EBC747C00855684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358DD871EBC747C00855684 /* ViewController.m */; };
+		7358DD8B1EBC747C00855684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7358DD891EBC747C00855684 /* Main.storyboard */; };
+		7358DD8D1EBC747C00855684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7358DD8C1EBC747C00855684 /* Assets.xcassets */; };
+		7358DD901EBC747C00855684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7358DD8E1EBC747C00855684 /* LaunchScreen.storyboard */; };
+		7358DD9B1EBC747D00855684 /* ShareBicycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358DD9A1EBC747D00855684 /* ShareBicycleTests.m */; };
+		7358DDA61EBC747D00855684 /* ShareBicycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358DDA51EBC747D00855684 /* ShareBicycleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7358DD971EBC747D00855684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7358DD751EBC747C00855684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7358DD7C1EBC747C00855684;
+			remoteInfo = ShareBicycle;
+		};
+		7358DDA21EBC747D00855684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7358DD751EBC747C00855684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7358DD7C1EBC747C00855684;
+			remoteInfo = ShareBicycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7358DD7D1EBC747C00855684 /* ShareBicycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBicycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7358DD811EBC747C00855684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7358DD831EBC747C00855684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7358DD841EBC747C00855684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7358DD861EBC747C00855684 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7358DD871EBC747C00855684 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7358DD8A1EBC747C00855684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7358DD8C1EBC747C00855684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7358DD8F1EBC747C00855684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7358DD911EBC747C00855684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7358DD961EBC747D00855684 /* ShareBicycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBicycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7358DD9A1EBC747D00855684 /* ShareBicycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareBicycleTests.m; sourceTree = "<group>"; };
+		7358DD9C1EBC747D00855684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7358DDA11EBC747D00855684 /* ShareBicycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBicycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7358DDA51EBC747D00855684 /* ShareBicycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareBicycleUITests.m; sourceTree = "<group>"; };
+		7358DDA71EBC747D00855684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7358DD7A1EBC747C00855684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD931EBC747D00855684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD9E1EBC747D00855684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7358DD741EBC747C00855684 = {
+			isa = PBXGroup;
+			children = (
+				7358DD7F1EBC747C00855684 /* ShareBicycle */,
+				7358DD991EBC747D00855684 /* ShareBicycleTests */,
+				7358DDA41EBC747D00855684 /* ShareBicycleUITests */,
+				7358DD7E1EBC747C00855684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7358DD7E1EBC747C00855684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7358DD7D1EBC747C00855684 /* ShareBicycle.app */,
+				7358DD961EBC747D00855684 /* ShareBicycleTests.xctest */,
+				7358DDA11EBC747D00855684 /* ShareBicycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7358DD7F1EBC747C00855684 /* ShareBicycle */ = {
+			isa = PBXGroup;
+			children = (
+				7358DD831EBC747C00855684 /* AppDelegate.h */,
+				7358DD841EBC747C00855684 /* AppDelegate.m */,
+				7358DD861EBC747C00855684 /* ViewController.h */,
+				7358DD871EBC747C00855684 /* ViewController.m */,
+				7358DD891EBC747C00855684 /* Main.storyboard */,
+				7358DD8C1EBC747C00855684 /* Assets.xcassets */,
+				7358DD8E1EBC747C00855684 /* LaunchScreen.storyboard */,
+				7358DD911EBC747C00855684 /* Info.plist */,
+				7358DD801EBC747C00855684 /* Supporting Files */,
+			);
+			path = ShareBicycle;
+			sourceTree = "<group>";
+		};
+		7358DD801EBC747C00855684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7358DD811EBC747C00855684 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7358DD991EBC747D00855684 /* ShareBicycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7358DD9A1EBC747D00855684 /* ShareBicycleTests.m */,
+				7358DD9C1EBC747D00855684 /* Info.plist */,
+			);
+			path = ShareBicycleTests;
+			sourceTree = "<group>";
+		};
+		7358DDA41EBC747D00855684 /* ShareBicycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7358DDA51EBC747D00855684 /* ShareBicycleUITests.m */,
+				7358DDA71EBC747D00855684 /* Info.plist */,
+			);
+			path = ShareBicycleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7358DD7C1EBC747C00855684 /* ShareBicycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7358DDAA1EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycle" */;
+			buildPhases = (
+				7358DD791EBC747C00855684 /* Sources */,
+				7358DD7A1EBC747C00855684 /* Frameworks */,
+				7358DD7B1EBC747C00855684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareBicycle;
+			productName = ShareBicycle;
+			productReference = 7358DD7D1EBC747C00855684 /* ShareBicycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7358DD951EBC747D00855684 /* ShareBicycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7358DDAD1EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycleTests" */;
+			buildPhases = (
+				7358DD921EBC747D00855684 /* Sources */,
+				7358DD931EBC747D00855684 /* Frameworks */,
+				7358DD941EBC747D00855684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7358DD981EBC747D00855684 /* PBXTargetDependency */,
+			);
+			name = ShareBicycleTests;
+			productName = ShareBicycleTests;
+			productReference = 7358DD961EBC747D00855684 /* ShareBicycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7358DDA01EBC747D00855684 /* ShareBicycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7358DDB01EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycleUITests" */;
+			buildPhases = (
+				7358DD9D1EBC747D00855684 /* Sources */,
+				7358DD9E1EBC747D00855684 /* Frameworks */,
+				7358DD9F1EBC747D00855684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7358DDA31EBC747D00855684 /* PBXTargetDependency */,
+			);
+			name = ShareBicycleUITests;
+			productName = ShareBicycleUITests;
+			productReference = 7358DDA11EBC747D00855684 /* ShareBicycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7358DD751EBC747C00855684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sjq;
+				TargetAttributes = {
+					7358DD7C1EBC747C00855684 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LRLZL4778V;
+						ProvisioningStyle = Automatic;
+					};
+					7358DD951EBC747D00855684 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LRLZL4778V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7358DD7C1EBC747C00855684;
+					};
+					7358DDA01EBC747D00855684 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LRLZL4778V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7358DD7C1EBC747C00855684;
+					};
+				};
+			};
+			buildConfigurationList = 7358DD781EBC747C00855684 /* Build configuration list for PBXProject "ShareBicycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7358DD741EBC747C00855684;
+			productRefGroup = 7358DD7E1EBC747C00855684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7358DD7C1EBC747C00855684 /* ShareBicycle */,
+				7358DD951EBC747D00855684 /* ShareBicycleTests */,
+				7358DDA01EBC747D00855684 /* ShareBicycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7358DD7B1EBC747C00855684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7358DD901EBC747C00855684 /* LaunchScreen.storyboard in Resources */,
+				7358DD8D1EBC747C00855684 /* Assets.xcassets in Resources */,
+				7358DD8B1EBC747C00855684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD941EBC747D00855684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD9F1EBC747D00855684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7358DD791EBC747C00855684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7358DD881EBC747C00855684 /* ViewController.m in Sources */,
+				7358DD851EBC747C00855684 /* AppDelegate.m in Sources */,
+				7358DD821EBC747C00855684 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD921EBC747D00855684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7358DD9B1EBC747D00855684 /* ShareBicycleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7358DD9D1EBC747D00855684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7358DDA61EBC747D00855684 /* ShareBicycleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7358DD981EBC747D00855684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7358DD7C1EBC747C00855684 /* ShareBicycle */;
+			targetProxy = 7358DD971EBC747D00855684 /* PBXContainerItemProxy */;
+		};
+		7358DDA31EBC747D00855684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7358DD7C1EBC747C00855684 /* ShareBicycle */;
+			targetProxy = 7358DDA21EBC747D00855684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7358DD891EBC747C00855684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7358DD8A1EBC747C00855684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7358DD8E1EBC747C00855684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7358DD8F1EBC747C00855684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7358DDA81EBC747D00855684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7358DDA91EBC747D00855684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7358DDAB1EBC747D00855684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7358DDAC1EBC747D00855684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7358DDAE1EBC747D00855684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBicycle.app/ShareBicycle";
+			};
+			name = Debug;
+		};
+		7358DDAF1EBC747D00855684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBicycle.app/ShareBicycle";
+			};
+			name = Release;
+		};
+		7358DDB11EBC747D00855684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareBicycle;
+			};
+			name = Debug;
+		};
+		7358DDB21EBC747D00855684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LRLZL4778V;
+				INFOPLIST_FILE = ShareBicycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytekNews.ShareBicycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareBicycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7358DD781EBC747C00855684 /* Build configuration list for PBXProject "ShareBicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358DDA81EBC747D00855684 /* Debug */,
+				7358DDA91EBC747D00855684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7358DDAA1EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358DDAB1EBC747D00855684 /* Debug */,
+				7358DDAC1EBC747D00855684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7358DDAD1EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358DDAE1EBC747D00855684 /* Debug */,
+				7358DDAF1EBC747D00855684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7358DDB01EBC747D00855684 /* Build configuration list for PBXNativeTarget "ShareBicycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358DDB11EBC747D00855684 /* Debug */,
+				7358DDB21EBC747D00855684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7358DD751EBC747C00855684 /* Project object */;
+}
